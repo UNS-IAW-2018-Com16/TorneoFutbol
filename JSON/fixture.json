@@ -19,8 +19,8 @@
             "arbitro": "Juan Perez",
             "equipoLocal": "Equipo1",
             "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
+            "golesLocal": null,
+            "golesVisita": null
       },
       {
             "ID": "10",
@@ -65,8 +65,8 @@
             "arbitro": "Juan Perez",
             "equipoLocal": "Equipo1",
             "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
+            "golesLocal": null,
+            "golesVisita": null
       },
       {
             "ID": "10",
@@ -76,8 +76,8 @@
             "arbitro": "Juan Perez",
             "equipoLocal": "Equipo1",
             "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
+            "golesLocal": null,
+            "golesVisita": null
       },
       {
             "ID": "10",
