@@ -1,6 +1,6 @@
 [
     {
-        "equipo": "Equipo1",
+        "equipo": "Argentina",
         "PJ": "10",
         "PG": "10",
         "PE": "0",
@@ -11,7 +11,7 @@
         "PTS": "30"
     },
     {
-        "equipo": "Equipo2",
+        "equipo": "Brasil",
         "PJ": "10",
         "PG": "10",
         "PE": "0",
@@ -22,7 +22,7 @@
         "PTS": "30"
     },
     {
-        "equipo": "Equip3",
+        "equipo": "Uruguay",
         "PJ": "10",
         "PG": "10",
         "PE": "0",
@@ -33,7 +33,7 @@
         "PTS": "30"
     },
     {
-        "equipo": "Equipo4",
+        "equipo": "Colombia",
         "PJ": "10",
         "PG": "10",
         "PE": "0",
@@ -44,40 +44,7 @@
         "PTS": "30"
     },
     {
-        "equipo": "Equipo5",
-        "PJ": "10",
-        "PG": "10",
-        "PE": "0",
-        "PP": "0",
-        "GF": "10",
-        "GC": "2",
-        "DG": "+8",
-        "PTS": "30"
-    },
-    {
-        "equipo": "Equipo6",
-        "PJ": "10",
-        "PG": "10",
-        "PE": "0",
-        "PP": "0",
-        "GF": "10",
-        "GC": "2",
-        "DG": "+8",
-        "PTS": "30"
-    },
-    {
-        "equipo": "Equipo7",
-        "PJ": "10",
-        "PG": "10",
-        "PE": "0",
-        "PP": "0",
-        "GF": "10",
-        "GC": "2",
-        "DG": "+8",
-        "PTS": "30"
-    },
-    {
-        "equipo": "Equipo8",
+        "equipo": "Peru",
         "PJ": "10",
         "PG": "10",
         "PE": "0",

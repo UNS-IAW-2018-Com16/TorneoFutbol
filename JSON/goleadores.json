@@ -1,42 +1,33 @@
 [
    {
-      "jugador": "Jugador1",
-      "equipo": "Equipo1",
+      "jugador": "Martinez, Lautaro",
+      "equipo": "Argentina",
       "goles": "10"
    },
    {
-      "jugador": "Jugador2",
-      "equipo": "Equipo2",
+      "jugador": "Messi, Lionel",
+      "equipo": "Argentina",
       "goles": "9"
    },
    {
-      "jugador": "Jugador3",
-      "equipo": "Equipo3",
+      "jugador": "Suarez, Lucho",
+      "equipo": "Uruguay",
       "goles": "8"
    },
    {
-      "jugador": "Jugador4",
-      "equipo": "Equipo4",
+      "jugador": "Falcao, Radamel",
+      "equipo": "Uruguay",
       "goles": "7"
    },
    {
-      "jugador": "Jugador5",
-      "equipo": "Equipo5",
+      "jugador": "Neymar Jr.",
+      "equipo": "Brasil",
       "goles": "6"
    },
    {
-      "jugador": "Jugador6",
-      "equipo": "Equipo6",
+      "jugador": "Romero, Oscar",
+      "equipo": "Paraguay",
       "goles": "5"
-   },
-   {
-      "jugador": "Jugador7",
-      "equipo": "Equipo7",
-      "goles": "4"
-   },
-   {
-      "jugador": "Jugador8",
-      "equipo": "Equipo6",
-      "goles": "3"
    }
+
 ]

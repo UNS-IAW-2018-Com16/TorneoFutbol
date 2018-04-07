@@ -1,42 +1,27 @@
 [
    {
-      "jugador": "Jugador1",
-      "equipo": "Equipo1",
-      "amarillas": "10"
-   },
-   {
-      "jugador": "Jugador2",
-      "equipo": "Equipo2",
-      "amarillas": "9"
-   },
-   {
-      "jugador": "Jugador3",
-      "equipo": "Equipo3",
-      "amarillas": "8"
-   },
-   {
-      "jugador": "Jugador4",
-      "equipo": "Equipo4",
-      "amarillas": "7"
-   },
-   {
-      "jugador": "Jugador5",
-      "equipo": "Equipo5",
-      "amarillas": "6"
-   },
-   {
-      "jugador": "Jugador6",
-      "equipo": "Equipo6",
+      "jugador": "Neymar Jr.",
+      "equipo": "Brasil",
       "amarillas": "5"
    },
    {
-      "jugador": "Jugador7",
-      "equipo": "Equipo7",
+      "jugador": "Cavani, Edison",
+      "equipo": "Uruguay",
       "amarillas": "4"
    },
    {
-      "jugador": "Jugador8",
-      "equipo": "Equipo6",
+      "jugador": "Otamendi, Nicolas",
+      "equipo": "Argentina",
       "amarillas": "3"
+   },
+   {
+      "jugador": "Banega, Ever",
+      "equipo": "Argentina",
+      "amarillas": "2"
+   },
+   {
+      "jugador": "Alves, Dani",
+      "equipo": "Brasil",
+      "amarillas": "1"
    }
 ]

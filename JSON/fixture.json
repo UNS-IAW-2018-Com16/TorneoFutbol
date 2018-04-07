@@ -6,8 +6,8 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo9",
-            "equipoVisitante": "Equipo8",
+            "equipoLocal": "Argentina",
+            "equipoVisitante": "Brasil",
             "golesLocal": "3",
             "golesVisita": "0"
       },
@@ -17,8 +17,8 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
+            "equipoLocal": "Colombia",
+            "equipoVisitante": "Uruguay",
             "golesLocal": null,
             "golesVisita": null
       },
@@ -28,87 +28,8 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"					
-      }
-],
-	[
-        {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": null,
-            "golesVisita": null
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": null,
-            "golesVisita": null
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
+            "equipoLocal": "Peru",
+            "equipoVisitante": "Paraguay",
             "golesLocal": "3",
             "golesVisita": "0"
       }
@@ -120,10 +41,10 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
+            "equipoLocal": "Argentina",
+            "equipoVisitante": "Peru",
+            "golesLocal": null,
+            "golesVisita": null
       },
       {
             "ID": "10",
@@ -131,10 +52,10 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
+            "equipoLocal": "Brasil",
+            "equipoVisitante": "Colombia",
+            "golesLocal": null,
+            "golesVisita": null
       },
       {
             "ID": "10",
@@ -142,32 +63,10 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
+            "equipoLocal": "Paraguay",
+            "equipoVisitante": "Uruguay",
             "golesLocal": "3",
             "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"					
       }
 ],
 	[
@@ -177,8 +76,8 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
+            "equipoLocal": "Argentina",
+            "equipoVisitante": "Uruguay",
             "golesLocal": "3",
             "golesVisita": "0"
       },
@@ -188,8 +87,8 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
+            "equipoLocal": "Peru",
+            "equipoVisitante": "Brasil",
             "golesLocal": "3",
             "golesVisita": "0"
       },
@@ -199,89 +98,10 @@
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
+            "equipoLocal": "Colombia",
+            "equipoVisitante": "Paraguay",
             "golesLocal": "3",
             "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"					
-      }
-],	
-	[
-        {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"
-      },
-      {
-            "ID": "10",
-            "cancha": "Cancha 1",
-            "fecha": "15/04/18",
-            "hora": "14:00hs",
-            "arbitro": "Juan Perez",
-            "equipoLocal": "Equipo1",
-            "equipoVisitante": "Equipo2",
-            "golesLocal": "3",
-            "golesVisita": "0"					
       }
 ]
 ]

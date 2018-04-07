@@ -1,12 +1,12 @@
-$(document).ready(getArchivo);
+$(document).ready(cargarPlantel);
 
-function getArchivo(){
-  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantelEquipo1.json", function(data, status){
-      cargarPlantelEquipo(data);
+function cargarPlantel(equipo){
+  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantel"+equipo+".json", function(data, status){
+      cargarJugadores(data);
   });
 }
 
-function cargarPlantelEquipo(data){
+function cargarJugadores(data){
   var i;
   var plantelEquipo = ""; 
   for(i = 0; i < data.length; i++){
