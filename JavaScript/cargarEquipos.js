@@ -11,16 +11,10 @@ function cargarListaEquipos(data){
   var listaEquipos = ""; 
   for(i = 0; i < data.length; i++){
   	var equipo = data[i].nombre;
-    listaEquipos+= "<li class=\"lista\" id=\""+equipo+"\"><a>"+equipo+"</a></li>";
+    listaEquipos+= "<li onClick=\"cargarPlantel("+equipo+")\"><a>"+equipo+"</a></li>";
   }
   document.getElementById("listaEquipos").innerHTML = listaEquipos;
 }
-
-$(".lista").click(function(){
-	var nombreEquipo = $("#listaEquipos option:selected").text();
-	document.getElementById("nombreEquipo").innerText = nombreEquipo;
-	//cargarPlantel(nombreEquipo);
-});
 
 function cargarPlantel(equipo){
   $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantel"+equipo+".json", function(data, status){
