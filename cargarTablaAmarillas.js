@@ -1,7 +1,7 @@
 $(document).ready(getArchivo);
 
 function getArchivo(){
-  $.get("https://juanolmedo1.github.io/TorneoCUBB/amarillas.json", function(data, status){
+  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/amarillas.json", function(data, status){
       crearTablaAmarillas(data);
   });
 }
