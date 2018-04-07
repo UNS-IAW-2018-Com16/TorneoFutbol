@@ -18,7 +18,7 @@ function cargarListaEquipos(data){
 
 $(".lista").click(function(event){
 	var nombreEquipo = event.target.id;
-	document.getElementById("nombreEquipo").write = nombreEquipo;
+	document.getElementById("nombreEquipo").innerText = nombreEquipo;
 	//cargarPlantel(nombreEquipo);
 });
 
