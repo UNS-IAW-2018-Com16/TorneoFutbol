@@ -3,3 +3,10 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+#titulo {
+	font-weight: bold;
+	font-size: 200px;
+	color: #A52A2A;
+	position: center;
+}
