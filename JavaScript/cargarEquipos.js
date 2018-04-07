@@ -18,7 +18,7 @@ function cargarListaEquipos(data){
 
 function cargarPlantel(equipo){
   $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantel"+equipo+".json", function(data, status){
-      cargarJugadores(data);
+      cargarJugadores(equipo,data);
   });
 }
 
