@@ -17,7 +17,7 @@ function cargarListaEquipos(data){
 }
 
 $(".lista").click(function(){
-	var nombreEquipo = $(this).text();
+	var nombreEquipo = $("#listaEquipos option:selected").text();
 	document.getElementById("nombreEquipo").innerText = nombreEquipo;
 	//cargarPlantel(nombreEquipo);
 });
