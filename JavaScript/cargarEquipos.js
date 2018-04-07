@@ -16,15 +16,15 @@ function cargarListaEquipos(data){
   document.getElementById("listaEquipos").innerHTML = listaEquipos;
 }
 
-$(".lista").click(function(event){
-	var nombreEquipo = event.target.id;
+$("#listaEquipos li").click(function(){
+	var nombreEquipo = $(this).text();
 	document.getElementById("nombreEquipo").innerText = nombreEquipo;
 	//cargarPlantel(nombreEquipo);
 });
 
 function cargarPlantel(equipo){
   $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantel"+equipo+".json", function(data, status){
-      cargarJugadores(equipo, data);
+      cargarJugadores(data);
   });
 }
 
