@@ -1,7 +1,7 @@
 $(document).ready(getArchivo);
 
 function getArchivo(){
-  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/fixture.json", function(data, status){
+  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/fixture.json", function(data, status){
       crearFixture(data);
   });
 }
