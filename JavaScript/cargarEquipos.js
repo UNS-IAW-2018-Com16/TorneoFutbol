@@ -6,22 +6,6 @@ function cargarEquipos(){
   });
 }
 
-function cargarListaEquipos(data){
-  var i;
-  var listaEquipos = ""; 
-  for(i = 0; i < data.length; i++){
-  	var equipo = data[i].nombre;
-    listaEquipos+= "<li onClick=\"cargarPlantel("+equipo+")\"><a>"+equipo+"</a></li>";
-  }
-  document.getElementById("listaEquipos").innerHTML = listaEquipos;
-}
-
-function cargarPlantel(equipo){
-  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantel"+equipo+".json", function(data, status){
-      cargarJugadores(data);
-  });
-}
-
 function cargarJugadores(equipo, data){
   var i;
   var plantelEquipo = ""; 
@@ -43,4 +27,20 @@ function cargarJugadores(equipo, data){
     		 "</div> </br>";		
   }
   document.getElementById("plantel").innerHTML = plantelEquipo;
+}
+
+function cargarPlantel(equipo){
+  $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/plantel"+equipo+".json", function(data, status){
+      cargarJugadores(data);
+  });
+}
+
+function cargarListaEquipos(data){
+  var i;
+  var listaEquipos = ""; 
+  for(i = 0; i < data.length; i++){
+  	var equipo = data[i].nombre;
+    listaEquipos+= "<li onclick=\"cargarPlantel(\""+equipo+"\")\"><a>"+equipo+"</a></li>";
+  }
+  document.getElementById("listaEquipos").innerHTML = listaEquipos;
 }
