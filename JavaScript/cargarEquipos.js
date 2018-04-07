@@ -11,12 +11,12 @@ function cargarListaEquipos(data){
   var listaEquipos = ""; 
   for(i = 0; i < data.length; i++){
   	var equipo = data[i].nombre;
-    listaEquipos+= "<li class= \"lista\" id=\""+equipo+"\"><a>"+equipo+"</a></li>";
+    listaEquipos+= "<li class=\"lista\" id=\""+equipo+"\"><a>"+equipo+"</a></li>";
   }
   document.getElementById("listaEquipos").innerHTML = listaEquipos;
 }
 
-$("#listaEquipos li").click(function(){
+$(".lista").click(function(){
 	var nombreEquipo = $(this).text();
 	document.getElementById("nombreEquipo").innerText = nombreEquipo;
 	//cargarPlantel(nombreEquipo);
