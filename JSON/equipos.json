@@ -1,0 +1,52 @@
+[
+   {
+      "ID": "1",
+      "nombre": "Equipo1",
+      "escudo": "escudo1.png"
+   },
+   {
+      "ID": "2",
+      "nombre": "Equipo2",
+      "escudo": "escudo2.png"
+   },
+   {
+      "ID": "3",
+      "nombre": "Equipo3",
+      "escudo": "escudo3.png"
+   },
+   {
+      "ID": "4",
+      "nombre": "Equipo4",
+      "escudo": "escudo4.png"
+   },
+   {
+      "ID": "5",
+      "nombre": "Equipo5",
+      "escudo": "escudo5.png"
+   },
+   {
+      "ID": "6",
+      "nombre": "Equipo6",
+      "escudo": "escudo6.png"
+   },
+   {
+      "ID": "7",
+      "nombre": "Equipo7",
+      "escudo": "escudo7.png"
+   },
+   {
+      "ID": "8",
+      "nombre": "Equipo8",
+      "escudo": "escudo8.png"
+   },
+   {
+      "ID": "9",
+      "nombre": "Equipo9",
+      "escudo": "escudo9.png"
+   },
+   {
+      "ID": "10",
+      "nombre": "Equipo10",
+      "escudo": "escudo10.png"
+   }
+]

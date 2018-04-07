@@ -1,0 +1,42 @@
+[
+   {
+      "jugador": "Jugador1",
+      "equipo": "Equipo1",
+      "goles": "10"
+   },
+   {
+      "jugador": "Jugador2",
+      "equipo": "Equipo2",
+      "goles": "9"
+   },
+   {
+      "jugador": "Jugador3",
+      "equipo": "Equipo3",
+      "goles": "8"
+   },
+   {
+      "jugador": "Jugador4",
+      "equipo": "Equipo4",
+      "goles": "7"
+   },
+   {
+      "jugador": "Jugador5",
+      "equipo": "Equipo5",
+      "goles": "6"
+   },
+   {
+      "jugador": "Jugador6",
+      "equipo": "Equipo6",
+      "goles": "5"
+   },
+   {
+      "jugador": "Jugador7",
+      "equipo": "Equipo7",
+      "goles": "4"
+   },
+   {
+      "jugador": "Jugador8",
+      "equipo": "Equipo6",
+      "goles": "3"
+   }
+]
