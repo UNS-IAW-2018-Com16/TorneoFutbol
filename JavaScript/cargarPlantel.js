@@ -12,7 +12,7 @@ function cargarPlantelEquipo(data){
   for(i = 0; i < data.length; i++){
     plantelEquipo+="<div class=\"media-left media-middle\">"+
     			"<a>"+
-    		  		"<img class=\"media-object\" src=\""+data[i].foto+"\" alt=\"Imagen no disponible\">"+
+    		  		"<img class=\"media-object\" src=\"https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Equipo1/PlantelEquipo1/jugador1.png\" alt=\"Imagen no disponible\">"+
     		  "</a>"+
     		 "</div>"+
     		 "<div class=\"media-body\">"+
