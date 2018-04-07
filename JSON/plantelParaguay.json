@@ -1,0 +1,30 @@
+[
+   {
+      "nombre": "Lionel",
+      "apellido": "Messi",
+      "numeroSocio": 100,
+      "equipo": 1,
+      "fechaNacimiento": "15/05/96",
+      "peso": "70 kg",
+      "altura": "185 cm",
+      "edad": "20 años",
+      "foto":"villar.png",
+      "numeroCamiseta": 10,
+      "pieHabil": "Izquierda",
+      "posicion": "Delantero"
+   },
+   {
+      "nombre": "Dani",
+      "apellido": "Alves",
+      "numeroSocio": 100,
+      "equipo": 1,
+      "fechaNacimiento": "15/05/96",
+      "peso": "70 kg",
+      "altura": "185 cm",
+      "edad": "20 años",
+      "foto":"villar.png",
+      "numeroCamiseta": 10,
+      "pieHabil": "Izquierda",
+      "posicion": "Delantero"
+   }
+]
