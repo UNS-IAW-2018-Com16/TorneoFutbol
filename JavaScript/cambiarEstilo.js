@@ -1,5 +1,5 @@
 $("#estilo2").click(function() {
-    estiloModoOscurol();
+    estiloModoOscuro();
 });
 
 
