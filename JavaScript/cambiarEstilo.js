@@ -1,10 +1,10 @@
 $("#estilo2").click(function() {
-    estiloModoGeneral();
+    estiloModoOscuro();
 });
 
 
 $("#estilo1").click(function() {
-    estiloModoOscuro();   
+    estiloModoGeneral();   
 });
 
 function estiloModoGeneral () {
