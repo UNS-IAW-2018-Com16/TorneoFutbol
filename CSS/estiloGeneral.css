@@ -8,3 +8,13 @@ body {
 	color: #000000;
 	position: center;
 }
+.panel-heading {
+	background-color: #000000;
+	font-color: #FFFFFF;
+	font-size: 30px;
+}
+.panel-body {
+	background-color: #778899;
+	font-color: #FFFFFF;
+	font-size: 20px;
+}
