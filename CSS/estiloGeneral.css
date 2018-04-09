@@ -9,19 +9,32 @@ body {
 	text-align: center;
 }
 
+.nav > .nav-tabs {
+	font-size: 25px;
+	font-color: black;
+}
+
 .panel {
 	background-color: skyblue;
 }
 
-.panel-info > .panel-heading{
+.panel-info > .panel-heading {
 	background-color: navy;
 	text-align: center;
 	font-color: white;
 	font-size: 30px;
 }
 
+.panel-info > .panel-heading > .p {
+	font-color: white;
+}
+
 .panel-info > .panel-body{
 	background-color: snow;
 	font-color: black;
 	font-size: 20px;
+}
+
+.panel-info > .panel-body > .p {
+	font-color: black;
 }
