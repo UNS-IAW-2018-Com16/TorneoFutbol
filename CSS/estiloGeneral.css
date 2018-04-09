@@ -24,17 +24,13 @@ body {
 #estilo1, #estilo2 {
 	position: relative;
 	left: 79%;
-	top:5%;
 }
 
-#equipos {
-	position:relative;
-	left: 50%;
-	bottom: 10%;
-}
 
 ul.nav {
 	background-color: teal;
+	position: relative;
+	bottom: 10%;
 	border: none;
 	border-radius: 4px;
 }
@@ -111,11 +107,11 @@ h2 {
 }
 
 /* TABLAS */
-table {
+.table-bordered {
 	border: 1px solid black;
 }
 
-table > th {
+table > tbody > tr > th {
 	background-color: teal;
 }
 
@@ -127,4 +123,5 @@ img {
 
 h4 {
 	font-size: 20px;
+	font-weight: bold;
 }
