@@ -1,11 +1,15 @@
 body {
-	background-color: skyblue;
+	background-image: url("https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloGeneral/fondo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
 }
 
 #titulo {
+	
 	font-weight: bold;
 	font-size: 100px;
-	color: black;
+	color: white;
 	text-align: center;
 }
 
@@ -15,6 +19,7 @@ body {
 	border:1px solid black;
 	border-radius: 4px;
 	font-size: 15px;
+	margin-top:10px;
 } 
 
 .btn:hover {
@@ -29,8 +34,20 @@ body {
 	margin-bottom: 10px;
 }
 
+#filtroEquipos {
+	position:relative;
+	left:40%;
+}
+
+#filtroEquipos button {
+	background-color: midnightblue;
+	color:white;
+	border-radius: 4px;
+	font-size:20px;
+}
+
 ul.nav {
-	background-color: teal;
+	background-color: midnightblue;
 	position: relative;
 	bottom: 10%;
 	border: none;
@@ -38,7 +55,7 @@ ul.nav {
 }
 
 .nav > li > a {
-	color:black;
+	color:white;
 	font-size: 20px;
 }
 
@@ -50,35 +67,40 @@ ul.nav {
 
 .nav-tabs > li.active > a {
 	background-color: steelblue;
-	color: black;
+	color: white;
 	border: none;
 	border-radius: 4px;
 }
 .nav-tabs > li.active > a:hover {
 	background-color: steelblue;
 	border: none;
-	color: black;
+	color: white;
 }
 /* DROPDOWN MENU */
 .nav .open > a:hover {
-	background-color: teal;
+	background-color: midnightblue;
 	border:none;
 }
 .nav .open > a:focus{
-	background-color: teal;
+	background-color: midnightblue;
 	border:none;
 }
 
 .dropdown-menu {
-	background-color: teal;
-	color:black;
+	background-color: midnightblue;
+	color:white;
 	font-size:20px;
 }
 
 .dropdown-menu > li > a:hover {
 	background-color: steelblue;
-	color:black;
+	color:white;
 	font-size:20px;
+}
+
+.dropdown-menu > li > a {
+	color:white;
+	font-size:15px;
 }
 
 h2 {
@@ -88,23 +110,24 @@ h2 {
 }
 
 .panel {
-	background-color: skyblue;
+	background: none;
 }
 
 .panel-info {
 	float: left;
-	max-width:500px; 
-	max-height:400px;
+	border: none;
+	width:500px; 
+	height:400px;
 	margin-left: 50px;
 	margin-bottom: 50px;
 }
 
 .panel-info > .panel-heading {
-	background-color: teal;
+	background-color: midnightblue;
 	border: 2px solid black;
 	border-radius: 4px 4px 0 0;
 	text-align: center;
-	color: black;
+	color: white;
 	font-size: 30px;
 }
 
@@ -123,7 +146,18 @@ h2 {
 }
 
 table > tbody > tr > th {
-	background-color: teal;
+	background-color: midnightblue;
+	color:white;
+	text-align: center;
+}
+
+table > tbody > tr > td {
+	color:black;
+	background-color: steelblue;
+	opacity: 0.9;
+}
+table > tbody > tr > td:hover {
+	background-color: midnightblue;
 }
 
 /* IMAGENES */
@@ -133,8 +167,20 @@ img.media-object {
 }
 
 h4 {
+	background-color: midnightblue;
+	border-radius: 3px;
+	max-width: 200px;
+	color:white;
+	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
+}
+.media-body > p{
+	background-color:rgba(255,255,255,0.5);
+	color:black;
+	padding-left: 5px;
+	max-width: 300px;
+	font-size:20px;
 }
 
 .partidoFechaFixture{
