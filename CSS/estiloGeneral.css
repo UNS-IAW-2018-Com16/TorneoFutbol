@@ -26,6 +26,7 @@ body {
 .header button.btn {
 	position: relative;
 	left: 79%;
+	margin-bottom: 10px;
 }
 
 ul.nav {
@@ -93,7 +94,9 @@ h2 {
 .panel-info {
 	float: left;
 	max-width:500px; 
-	max-height:500px;
+	max-height:400px;
+	margin-left: 50px;
+	margin-bottom: 50px;
 }
 
 .panel-info > .panel-heading {
