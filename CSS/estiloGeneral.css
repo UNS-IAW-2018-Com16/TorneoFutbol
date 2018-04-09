@@ -12,8 +12,6 @@ body {
 .btn {
 	background-color: lightgrey;
 	color: black;
-	position: relative;
-	left: 80%;
 	border:1px solid black;
 	border-radius: 4px;
 	font-size: 15px;
@@ -21,8 +19,12 @@ body {
 
 .btn:hover {
 	background-color: grey;
-	border:1px solid black;
 } 
+
+#estilo1, #estilo2 {
+	position: relative;
+	left: 75%;
+}
 
 ul.nav {
 	background-color: teal;
