@@ -13,14 +13,14 @@ body {
 	background-color: skyblue;
 }
 
-.encabezado {
+.panel-heading .encabezado {
 	background-color: navy;
 	text-align: center;
 	font-color: white;
 	font-size: 30px;
 }
 
-.cuerpo {
+.panel-body .cuerpo {
 	background-color: snow;
 	font-color: black;
 	font-size: 20px;
