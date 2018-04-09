@@ -23,7 +23,8 @@ body {
 
 #estilo1, #estilo2 {
 	position: relative;
-	left: 75%;
+	left: 79%;
+	top:2%;
 }
 
 ul.nav {
@@ -101,4 +102,23 @@ h2 {
 	border-radius: 0 0 4px 4px;
 	color: black;
 	font-size: 15px;
+}
+
+/* TABLAS */
+.table {
+	border: 1px solid black;
+}
+
+th.table {
+	background-color: teal;
+}
+
+/* IMAGENES */
+img {
+	width: 100px;
+	height: 100px;
+}
+
+h4 {
+	font-size: 20px;
 }
