@@ -16,6 +16,7 @@ button.btn {
 
 ul.nav {
 	background-color: teal;
+	border: none;
 	border-radius: 8px;
 }
 
@@ -53,7 +54,7 @@ h2 {
 }
 
 .panel-info > .panel-heading {
-	background-color: navy;
+	background-color: lightblue;
 	border: 2px solid black;
 	border-radius: 4px 4px 0 0;
 	text-align: center;
@@ -62,7 +63,7 @@ h2 {
 }
 
 .panel-info > .panel-body {
-	background-color: snow;
+	background-color: beige;
 	border: 2px solid black;
 	border-radius: 0 0 4px 4px;
 	color: black;
