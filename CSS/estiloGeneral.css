@@ -10,21 +10,25 @@ body {
 }
 
 button.btn {
-	background-color: black;
-	position: ;
+	background-color: white;
 	right: 10px;
 } 
 
 ul.nav {
 	background-color: teal;
+	border-bottom: 1px solid black;
+	border-radius: 8px;
 }
 
-a {
-	font-size: 25px;
-	color: black;
+.nav > li > a {
+	color:black;
 }
 
-p {
+.nav > li > a:hover {
+	background-color: steelblue;
+}
+
+.nav-tabs > li.active > a:hover {
 	color:black;
 }
 
