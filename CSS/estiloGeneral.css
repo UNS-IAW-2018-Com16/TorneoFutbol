@@ -24,7 +24,13 @@ body {
 #estilo1, #estilo2 {
 	position: relative;
 	left: 79%;
-	top:2%;
+	top:5%;
+}
+
+#equipos {
+	position:relative;
+	left: 50%;
+	bottom: 10%;
 }
 
 ul.nav {
@@ -105,11 +111,11 @@ h2 {
 }
 
 /* TABLAS */
-.table {
+table {
 	border: 1px solid black;
 }
 
-th.table {
+table > th {
 	background-color: teal;
 }
 
