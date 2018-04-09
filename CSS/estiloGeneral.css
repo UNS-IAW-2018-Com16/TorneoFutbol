@@ -10,8 +10,15 @@ body {
 }
 
 button.btn {
-	background-color: white;
-	right: 10px;
+	background-color: lightgrey;
+	color: black;
+	border:1px solid black;
+	border-radius: 4px;
+	font-size: 15px;
+} 
+
+button.btn:hover {
+	background-color: grey;
 } 
 
 ul.nav {
@@ -35,7 +42,7 @@ ul.nav {
 	color:black;
 	border: none;
 	border-radius: 4px;
-	background-color: royalblue;
+	background-color: dimgray;
 }
 .nav-tabs > li.active > a:hover {
 	background-color: steelblue;
