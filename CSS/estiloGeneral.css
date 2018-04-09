@@ -22,14 +22,17 @@ ul.nav {
 
 .nav > li > a {
 	color:black;
+	font-size: 20px;
 }
 
 .nav > li > a:hover {
 	background-color: steelblue;
+	border-radius: 4px 4px 4px 4px;
 }
 
-.nav-tabs > li.active > a:hover {
+.nav-tabs > li.active > a {
 	color:black;
+	background-color: navy;
 }
 
 .panel {
