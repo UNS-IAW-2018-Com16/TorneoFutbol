@@ -7,6 +7,14 @@ body {
 	color: black;
 	text-align: center;
 }
+
+#estilo1 #estilo2 {
+	object-position: right;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+
+}
 .panel {
 	background-color: skyblue;
 }
