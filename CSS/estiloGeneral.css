@@ -16,6 +16,7 @@ button.btn {
 
 ul.nav {
 	background-color: teal;
+	border: 2px solid black;
 	border-radius: 8px;
 }
 
@@ -35,6 +36,10 @@ ul.nav {
 	border-color: black;
 	border-radius: 4px 4px 4px 4px;
 	background-color: royalblue;
+}
+.nav-tabs > li.active > a:hover {
+	background-color: steelblue;
+	color:black;
 }
 
 h2 {
