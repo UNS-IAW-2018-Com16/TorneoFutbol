@@ -36,34 +36,30 @@ ul.nav {
 .nav > li > a:hover {
 	background-color: steelblue;
 	border: none;
-	border-radius: none;
+	border-radius: 4px;
 }
 
 .nav-tabs > li.active > a {
+	background-color: silver;
 	color: black;
 	border: none;
 	border-radius: none;
-	background-color: slateblue;
 }
 .nav-tabs > li.active > a:hover {
 	background-color: steelblue;
 	border: none;
 	color: black;
 }
+/* DROPDOWN MENU */
+.dropdown .open {
+	background-color: teal;
+	border: none;
+}
 
-.nav-tabs .dropdown-menu {
+.dropdown-menu > li > a {
 	background-color: teal;
 	color:black;
 	font-size:20px;
-}
-.nav .open {
-	background-color: teal;
-	border-color: none;
-}
-
-.nav-tabs .dropdown-menu > a:focus{
-	background-color: slateblue;
-	color:black;
 }
 
 .dropdown-menu > li > a:hover {
