@@ -10,6 +10,10 @@ body {
 }
 
 .nav > .nav-tabs {
+	background-color: tomato;
+}
+
+.a.nav.nav-tabs {
 	font-size: 25px;
 	font-color: black;
 }
