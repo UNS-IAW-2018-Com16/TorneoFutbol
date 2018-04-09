@@ -1,3 +1,16 @@
+$(document).ready(function() {
+
+    var estiloCSS = localStorage.getItem('estiloActual');
+    
+    if (estiloCSS === null){
+        estiloCSS = 'estiloGeneral.css';
+        localStorage.setItem('estiloActual',estiloCSS);
+    }
+    setHref(estiloCSS);
+
+});
+    
+
 /* $("#estilo1").click(function(){
     estiloModoGeneral();   
 });
@@ -7,10 +20,20 @@ $("#estilo2").click(function(){
 });*/
 
 function estiloModoGeneral(){
-    $('link[id="estiloPagina"]').attr('href','https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloGeneral.css');
+    localStorage.setItem('estiloActual','estiloGeneral.css');
+    
+    /*$('link[id="estiloPagina"]').attr('href','https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloGeneral.css');*/
 }
 
 
 function estiloModoOscuro(){
-    $("link[id=\"estiloPagina\"]").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloOscuro.css");    
+    localStorage.setItem('estiloActual','estiloOscuro.css');
+    
+    /*$("link[id=\"estiloPagina\"]").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloOscuro.css"); */   
+}
+    
+function setHref(estilo){
+    var rutaAbsoluta = 'https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/'+estilo;
+    $('link[id="estiloPagina"]').attr('href',rutaAbsoulta);
+        
 }
