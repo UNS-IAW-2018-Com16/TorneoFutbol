@@ -7,16 +7,18 @@ body {
 	color: black;
 	text-align: center;
 }
+
 .panel {
 	background-color: skyblue;
 }
-.panel-heading {
+
+.encabezado {
 	background-color: navy;
 	text-align: center;
 	font-color: white;
 	font-size: 30px;
 }
-.panel-body {
+.cuerpo {
 	background-color: snow;
 	font-color: black;
 	font-size: 20px;
