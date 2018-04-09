@@ -27,12 +27,15 @@ ul.nav {
 
 .nav > li > a:hover {
 	background-color: steelblue;
-	border-radius: 4px 4px 4px 4px;
+	border-color: black;
+	border-radius: 4px 4px 0 0;
 }
 
 .nav-tabs > li.active > a {
 	color:black;
-	background-color: navy;
+	border-color: black;
+	border-radius: 4px 4px 0 0;
+	background-color: lightslategrey;
 }
 
 .panel {
