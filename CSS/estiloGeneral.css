@@ -26,21 +26,18 @@ ul.nav {
 }
 
 .nav > li > a:hover {
-	padding: 2px;
 	background-color: steelblue;
 	border-color: black;
 	border-radius: 4px;
 }
 
 .nav-tabs > li.active > a {
-	padding: 2px;
 	color:black;
 	border: none;
 	border-radius: 4px;
 	background-color: royalblue;
 }
 .nav-tabs > li.active > a:hover {
-	padding: 2px;
 	background-color: steelblue;
 	border-color: black;
 	color:black;
@@ -57,7 +54,7 @@ h2 {
 }
 
 .panel-info > .panel-heading {
-	background-color: darkcyan;
+	background-color: teal;
 	border: 2px solid black;
 	border-radius: 4px 4px 0 0;
 	text-align: center;
