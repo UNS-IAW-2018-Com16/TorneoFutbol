@@ -5,13 +5,14 @@ body {
 	font-weight: bold;
 	font-size: 100px;
 	color: black;
-	position: center;
+	text-align: center;
 }
 .panel {
 	background-color: skyblue;
 }
 .panel-heading {
 	background-color: navy;
+	text-align: center;
 	font-color: white;
 	font-size: 30px;
 }
