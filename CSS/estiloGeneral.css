@@ -100,7 +100,8 @@ h2 {
 }
 
 .panel-info > .panel-body {
-	background-color: beige;
+	background-color: white;
+	text-align: center;
 	border: 2px solid black;
 	border-radius: 0 0 4px 4px;
 	color: black;
@@ -117,7 +118,7 @@ table > tbody > tr > th {
 }
 
 /* IMAGENES */
-img {
+img.media-object {
 	width: 100px;
 	height: 100px;
 }
@@ -125,4 +126,22 @@ img {
 h4 {
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.partidoFechaFixture{
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dateFechaFixture, .timeFechaFixture, .canchaFechaFixture, .arbitroFechaFixture{
+    font-size: 15px;
+    margin: 10px;   
+    display:inline-block;
+}
+
+.icono{
+    width: 20px;
+    margin:3px;
 }
