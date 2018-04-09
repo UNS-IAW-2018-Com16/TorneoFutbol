@@ -1,9 +1,10 @@
 $(function() {
 
     var estiloCSS = localStorage.getItem("estiloActual");
+    alert(estiloCSS);
     
     if (estiloCSS === null){
-        cambiarEstilo('estiloGeneral.css');
+        cambiarEstilo("estiloGeneral.css");
     } else{
         cambiarEstilo(estiloCSS);
     }
