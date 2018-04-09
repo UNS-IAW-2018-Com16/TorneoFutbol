@@ -1,19 +1,22 @@
 body {
-	background-color: #ADD8E6;
+	background-color: skyblue;
 }
 #titulo {
 	font-weight: bold;
 	font-size: 100px;
-	color: #000000;
+	color: black;
 	position: center;
 }
+.panel {
+	background-color: skyblue;
+}
 .panel-heading {
-	background-color: #000000;
-	font-color: #FFFFFF;
+	background-color: navy;
+	font-color: white;
 	font-size: 30px;
 }
 .panel-body {
-	background-color: #778899;
-	font-color: #FFFFFF;
+	background-color: snow;
+	font-color: black;
 	font-size: 20px;
 }
