@@ -3,10 +3,10 @@ $(document).ready(function() {
     var estiloCSS = localStorage.getItem('estiloActual');
     
     if (estiloCSS === null){
-        estiloCSS = 'estiloGeneral.css';
-        localStorage.setItem('estiloActual',estiloCSS);
+        estiloModoGeneral();
+    }else{
+        setHref(estiloCSS);
     }
-    setHref(estiloCSS);
 
 });
     
@@ -21,6 +21,7 @@ $("#estilo2").click(function(){
 
 function estiloModoGeneral(){
     localStorage.setItem('estiloActual','estiloGeneral.css');
+    setHref('estiloGeneral.css');
     
     /*$('link[id="estiloPagina"]').attr('href','https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloGeneral.css');*/
 }
@@ -28,6 +29,7 @@ function estiloModoGeneral(){
 
 function estiloModoOscuro(){
     localStorage.setItem('estiloActual','estiloOscuro.css');
+    setHref('estiloOscuro.css');
     
     /*$("link[id=\"estiloPagina\"]").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloOscuro.css"); */   
 }
