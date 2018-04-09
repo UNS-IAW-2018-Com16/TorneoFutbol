@@ -9,11 +9,17 @@ body {
 	text-align: center;
 }
 
-.nav > .nav-tabs {
+button.btn {
+	background-color: black;
+	font-size: 10px;
+	object-position: right;
+} 
+
+ul.nav {
 	background-color: tomato;
 }
 
-.a.nav.nav-tabs {
+a.nav {
 	font-size: 25px;
 	font-color: black;
 }
