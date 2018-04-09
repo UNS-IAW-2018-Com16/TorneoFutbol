@@ -25,8 +25,8 @@ function cargarPlantel(equipo){
 
 function cargarNombreYLogo(equipo){
   document.getElementById("nombreEquipo").innerText = "Plantel "+equipo;
-  var imagen = "<a><img class=\"media-object\" src=\"https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/"+equipo+"/logo"+equipo+".png\" alt=\"Imagen no disponible\"></a>";
-  document.getElementById("nombreEquipo").innerHTML = imagen;
+  var imagen = "https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/"+equipo+"/logo"+equipo+".png";
+  $("#logoEquipo").attr("src",imagen);
 }
 
 function cargarJugadores(equipo, data){
