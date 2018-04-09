@@ -19,9 +19,11 @@ body {
 
 .btn:hover {
 	background-color: grey;
+    border-color: black;
+    color:black;
 } 
 
-#estilo1, #estilo2 {
+.header button.btn {
 	position: relative;
 	left: 79%;
 }

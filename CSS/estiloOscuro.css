@@ -4,21 +4,34 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+
+.header{
+    padding: 10px;
+}
+
 #titulo {
-	font-weight: lighter;
-    font-size: 50px;
+    border: 2px solid #FFF;
+    background: black;
+    padding: 2px;
+	font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
 	color: white;
 	text-align: center;
 }
 
-button.btn {
-	background-color: white;
-	right: 10px;
+.header button.btn {
+    position:relative;
+    left: 80%;
+	background-color: black;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
 } 
 
 ul.nav {
-	background-color: teal;
-	border-radius: 8px;
+	background-color: white;
+    position:relative; 
 }
 
 .nav > li > a {
@@ -27,46 +40,69 @@ ul.nav {
 }
 
 .nav > li > a:hover {
-	background-color: steelblue;
+	background-color: black;
+    color: white;
 	border-color: black;
 	border-radius: 4px 4px 4px 4px;
 }
 
 .nav-tabs > li.active > a {
-	color:black;
-	border-color: black;
-	border-radius: 4px 4px 4px 4px;
-	background-color: royalblue;
+	color:white;
+    border: 2px solid rgb(255 0 0);
+	background-color: black;
 }
 .nav-tabs > li.active > a:hover {
-	background-color: steelblue;
+	color:white;
+    border: 2px solid rgb(255 0 0);
+	background-color: black;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: black;
+    color: white;
 	border-color: black;
-	color:black;
+	border-radius: 4px 4px 4px 4px;
 }
 
 h2 {
-	font-weight: bold;
-	color: black;
+    background-color: black;
+    text-align: center;
+	color: white;
 	font-size: 50px;
 }
 
 .panel {
-	background-color: skyblue;
+    background: none;
 }
 
 .panel-info > .panel-heading {
-	background-color: navy;
 	border: 2px solid black;
 	border-radius: 4px 4px 0 0;
+    background-color: black;
 	text-align: center;
-	color: black;
+	color: white;
 	font-size: 30px;
 }
 
 .panel-info > .panel-body {
-	background-color: snow;
-	border: 2px solid black;
-	border-radius: 0 0 4px 4px;
-	color: black;
-	font-size: 15px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.partidoFechaFixture{
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.dateFechaFixture, .timeFechaFixture, .canchaFechaFixture, .arbitroFechaFixture{
+    font-size: 15px;
+    margin: 10px;   
+    display:inline-block;
+}
+
+.icono{
+    width: 20px;
+    margin:3px;
 }
