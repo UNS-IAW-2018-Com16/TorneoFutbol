@@ -7,10 +7,10 @@ $("#estilo2").click(function(){
 });
 
 function estiloModoGeneral(){
-    $("#estiloPagina").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloGeneral.css");
+    $("link[id=\"estiloPagina\"]").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloGeneral.css");
 }
 
 
 function estiloModoOscuro(){
-    $("#estiloPagina").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloOscuro.css");    
+    $("link[id=\"estiloPagina\"]").attr("href","https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloOscuro.css");    
 }
