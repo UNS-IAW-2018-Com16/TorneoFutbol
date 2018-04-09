@@ -9,7 +9,7 @@ body {
 	text-align: center;
 }
 
-.btn-default {
+.btn {
 	background-color: lightgrey;
 	color: black;
 	border:1px solid black;
@@ -17,7 +17,7 @@ body {
 	font-size: 15px;
 } 
 
-.btn-default:hover {
+.btn:hover {
 	background-color: grey;
 	border:1px solid black;
 } 
@@ -25,7 +25,7 @@ body {
 ul.nav {
 	background-color: teal;
 	border: none;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 
 .nav > li > a {
@@ -36,13 +36,13 @@ ul.nav {
 .nav > li > a:hover {
 	background-color: steelblue;
 	border: none;
-	border-radius: 4px;
+	border-radius: none;
 }
 
 .nav-tabs > li.active > a {
 	color: black;
 	border: none;
-	border-radius: 4px;
+	border-radius: none;
 	background-color: slateblue;
 }
 .nav-tabs > li.active > a:hover {
@@ -56,6 +56,10 @@ ul.nav {
 	color:black;
 	font-size:20px;
 }
+.nav .open {
+	background-color: teal;
+	border-color: none;
+}
 
 .nav-tabs .dropdown-menu > a:focus{
 	background-color: slateblue;
@@ -67,7 +71,6 @@ ul.nav {
 	color:black;
 	font-size:20px;
 }
-
 
 h2 {
 	font-weight: bold;
