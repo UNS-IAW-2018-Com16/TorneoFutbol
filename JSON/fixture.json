@@ -12,18 +12,18 @@
             "golesVisita": "0"
       },
       {
-            "ID": "10",
+            "ID": "11",
             "cancha": "Cancha 1",
             "fecha": "15/04/18",
             "hora": "14:00hs",
             "arbitro": "Juan Perez",
             "equipoLocal": "Colombia",
             "equipoVisitante": "Uruguay",
-            "golesLocal": null,
-            "golesVisita": null
+            "golesLocal": "4",
+            "golesVisita": "3"
       },
       {
-            "ID": "10",
+            "ID": "12",
             "cancha": "Cancha 1",
             "fecha": "15/04/18",
             "hora": "14:00hs",
@@ -43,8 +43,8 @@
             "arbitro": "Juan Perez",
             "equipoLocal": "Argentina",
             "equipoVisitante": "Peru",
-            "golesLocal": null,
-            "golesVisita": null
+            "golesLocal": "7",
+            "golesVisita": "1"
       },
       {
             "ID": "10",
@@ -54,8 +54,8 @@
             "arbitro": "Juan Perez",
             "equipoLocal": "Brasil",
             "equipoVisitante": "Colombia",
-            "golesLocal": null,
-            "golesVisita": null
+            "golesLocal": "4",
+            "golesVisita": "0"
       },
       {
             "ID": "10",
