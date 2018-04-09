@@ -16,7 +16,6 @@ button.btn {
 
 ul.nav {
 	background-color: teal;
-	border-bottom: 1px solid black;
 	border-radius: 8px;
 }
 
@@ -28,14 +27,20 @@ ul.nav {
 .nav > li > a:hover {
 	background-color: steelblue;
 	border-color: black;
-	border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 4px 4px;
 }
 
 .nav-tabs > li.active > a {
 	color:black;
 	border-color: black;
-	border-radius: 4px 4px 0 0;
-	background-color: lightslategrey;
+	border-radius: 4px 4px 4px 4px;
+	background-color: royalblue;
+}
+
+h2 {
+	font-weight: bold;
+	color: black;
+	font-size: 50px;
 }
 
 .panel {
