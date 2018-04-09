@@ -26,6 +26,11 @@ body {
 	left: 79%;
 }
 
+#botonEquipos, #listaEquipos {
+	position: relative;
+	left: 20%;
+}
+
 
 ul.nav {
 	background-color: teal;
