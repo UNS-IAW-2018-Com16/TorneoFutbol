@@ -20,8 +20,23 @@ function crearResultados(data){
         if(data[i][j].golesLocal != null){
           golesLocal = data[i][j].golesLocal;
           golesVisita = data[i][j].golesVisita;
-          panel += "<p>"+data[i][j].equipoLocal+" - "+golesLocal+" - "+
-             " vs. - "+golesVisita+" - "+data[i][j].equipoVisitante+" </p>";
+          panel += 
+              "<p>"+
+              "<div class='equipoResultado'>"+
+              data[i][j].equipoLocal+
+              "</div>"+
+              "<div class='resultadoPartido'>"+
+                  "<div class='golesLocalResultado'>"+
+                  golesLocal+
+                  "</div>"+
+                  "<div class='golesVisitaResultado'>"+
+                  golesVisita+
+                  "</div>"+
+              "</div>"+
+              "<div class='equipoResultado'>"+
+              data[i][j].equipoVisitante+
+              "</div> "+
+              " </p>";
         } 
     }
     panel+= "</div></div>";
