@@ -11,22 +11,21 @@ body {
 input.form-control {
 	height: 30px;
 	width: 200px;
+	position: absolute;
+	right: 10px;
 }
 
 button.btn {
 	background-color: black;
+	position:absolute;
+	right: 10px;
 } 
-
-a.btn {
-	font-size: 20px;
-	font-color: white;
-}
 
 ul.nav {
 	background-color: teal;
 }
 
-a.nav {
+a {
 	font-size: 25px;
 	font-color: black;
 }
@@ -38,7 +37,6 @@ a.nav {
 .panel-info > .panel-heading {
 	background-color: navy;
 	text-align: center;
-	font-color: white;
 	font-size: 30px;
 }
 
