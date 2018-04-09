@@ -8,18 +8,23 @@ body {
 	color: black;
 	text-align: center;
 }
+input.form-control {
+	height: 20px;
+	width: 60px;
+
+}
 
 button.btn {
 	background-color: black;
-	font-size: 10px;
-	object-position: right;
+	font-size: 20px;
+	font-color: white;
 } 
 
 ul.nav {
-	background-color: tomato;
+	background-color: teal;
 }
 
-a.nav {
+a.li {
 	font-size: 25px;
 	font-color: black;
 }
