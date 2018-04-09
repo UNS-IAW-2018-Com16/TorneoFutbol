@@ -7,45 +7,51 @@
 
 	<!-- Boostrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+	<!-- Nuestro CSS-->
+	<link rel="stylesheet" id="estiloPagina" href="https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/estiloGeneral.css"> 
 	<!-- JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Bootstrap JS-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<script type="text/javascript" src="https://uns-iaw-2018-com16.github.io/TorneoFutbol/JavaScript/cargarTablasPosiciones.js"></script>
+	<!-- Nuestro JS -->
+	<script src="https://uns-iaw-2018-com16.github.io/TorneoFutbol/JavaScript/cambiarEstilo.js"></script>
+	<script src="https://uns-iaw-2018-com16.github.io/TorneoFutbol/JavaScript/cargarTablasPosiciones.js"></script>
 	
 </head>
 <body>
 	<div class="container">
 		<!-- Encabezado -->
 		<div>
-			<h1>Liga de Futbol</h1>
-			<button class ="btn btn-default" id="estilo1">Estilo 1</button>
-			<button class ="btn btn-default" id="estilo2">Estilo 2</button>
+			<h1 id="titulo">Liga de Futbol</h1>
+			<button class ="btn btn-default" id="estilo1">Modo Normal</button>
+			<button class ="btn btn-default" id="estilo2">Modo Oscuro</button>
 		</div>
 
 		<!-- Login -->
-		<div class="input-group">
-  			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-  			<input type="text" class="form-control" placeholder="Usuario" aria-describedby="basic-addon1">
-		</div>
-		<div>
-			<input type="text" class="form-control" placeholder="Contraseña" aria-describedby="basic-addon1">
-		</div>
-		<button type="submit" class="btn btn-default">Login</button>
+		<!--<div class="Login">
+			<div class="input-group">
+  				<input type="text" class="form-control" placeholder="Usuario">
+			</div>
+			<div>
+				<input type="text" class="form-control" placeholder="Contraseña">
+			</div>
+			<button type="submit" class="btn btn-default">
+				<a>Login</a>
+			</button>
+		</div>-->
 
 		<!-- Barra de navegacion -->
 		<ul class="nav nav-tabs">
-			<li rol="presentation">
+			<li>
 				<a href="https://uns-iaw-2018-com16.github.io/TorneoFutbol/HTML/fixture.html">Fixture</a>
 			</li>
-			<li rol="presentation">
+			<li>
 				<a href="https://uns-iaw-2018-com16.github.io/TorneoFutbol/HTML/resultados.html">Resultados</a>
 			</li>
-			<li rol="presentation">
+			<li>
 				<a href="https://uns-iaw-2018-com16.github.io/TorneoFutbol/HTML/equipos.html">Equipos</a>
 			</li>
-			<li role="presentation" class="active dropdown">
+			<li role="presentation" class="dropdown active">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 					Tablas<span class="caret"></span></a>
 					<ul class="dropdown-menu">
@@ -53,8 +59,8 @@
 						<li><a href="https://uns-iaw-2018-com16.github.io/TorneoFutbol/HTML/goleadores.html">Goleadores</a></li>
 						<li><a href="https://uns-iaw-2018-com16.github.io/TorneoFutbol/HTML/amarillas.html">Amarillas</a></li>
 					</ul>
-				</li>
-			</ul>
+			</li>
+		</ul>
 
 			<!-- Tabla Posiciones -->
 			<div>
