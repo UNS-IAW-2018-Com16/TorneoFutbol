@@ -8,16 +8,10 @@ body {
 	color: black;
 	text-align: center;
 }
-input.form-control {
-	height: 30px;
-	width: 200px;
-	position: absolute;
-	right: 10px;
-}
 
 button.btn {
 	background-color: black;
-	position:absolute;
+	position: ;
 	right: 10px;
 } 
 
@@ -27,7 +21,11 @@ ul.nav {
 
 a {
 	font-size: 25px;
-	font-color: black;
+	color: black;
+}
+
+p {
+	color:black;
 }
 
 .panel {
