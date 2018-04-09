@@ -1,14 +1,10 @@
 $(function() {
-
-    var estiloCSS = localStorage.getItem("estiloActual");
-    alert(estiloCSS);
-    
+    var estiloCSS = localStorage.getItem("estiloActual");    
     if (estiloCSS === null){
         cambiarEstilo("estiloGeneral.css");
     } else{
         cambiarEstilo(estiloCSS);
     }
-
 });
     
 function cambiarEstilo(estilo){
@@ -19,7 +15,7 @@ function cambiarEstilo(estilo){
     
 function setReferencia(estilo){
     var rutaAbsoluta = "https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/"+estilo;
-    $("link[id=\"estiloPagina\"]").attr("href",rutaAbsoulta);
+    $("link[id=\"estiloPagina\"]").attr("href",rutaAbsoluta);
         
     
 }
