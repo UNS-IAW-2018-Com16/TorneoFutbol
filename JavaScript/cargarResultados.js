@@ -11,10 +11,10 @@ function crearResultados(data){
   var panel="";
   for(i = 0; i < data.length; i++){
     panel += "<div class=\"panel panel-info\">"+
-            "<div class=\"panel-heading\">"+
+            "<div class=\"panel-heading\" class=\"encabezado\">"+
               "<p>Fecha "+(i+1)+"</p>"+
             "</div>"+
-            "<div class=\"panel-body\">";
+            "<div class=\"panel-body\" class=\"cuerpo\">";
     for(j = 0; j<data[i].length; j++){
         var golesLocal,golesVisita;
         if(data[i][j].golesLocal != null){
