@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
     var estiloCSS = localStorage.getItem("estiloActual");
     
@@ -20,4 +20,5 @@ function setReferencia(estilo){
     var rutaAbsoluta = "https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/"+estilo;
     $("link[id=\"estiloPagina\"]").attr("href",rutaAbsoulta);
         
+    
 }
