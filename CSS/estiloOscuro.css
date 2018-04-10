@@ -10,13 +10,6 @@ body {
 }
 
 #titulo {
-    border: 2px solid #FFF;
-    background: black;
-    padding: 2px;
-	font-weight: bold;
-    font-family: 'Playfair Display', serif;
-    font-size: 100px;
-	color: white;
 	text-align: center;
 }
 
