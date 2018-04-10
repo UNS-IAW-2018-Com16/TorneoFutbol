@@ -109,13 +109,6 @@ ul.nav {
     margin-right: auto;
 }
 
-h2 {
-	font-weight: bold;
-	color: black;
-	text-align: left;
-	font-size: 50px;
-}
-
 .panel {
 	background: none;
 }
@@ -123,10 +116,18 @@ h2 {
 .panel-info {
 	float: left;
 	border: none;
-	width:500px; 
-	height:400px;
 	margin-left: 50px;
 	margin-bottom: 50px;
+}
+
+.fixture {
+	height: 400px;
+	width: 500px;
+}
+
+.resultados {
+	height: 250px;
+	width: 500px;
 }
 
 .panel-info > .panel-heading {
@@ -188,6 +189,7 @@ h4 {
 	font-size: 20px;
 	font-weight: bold;
 }
+
 .media-body > p{
 	background-color:rgba(255,255,255,0.5);
 	color:black;
@@ -201,7 +203,7 @@ img.media-object{
 	border: 5px solid black;
 }
 
-.partidoFechaFixture{
+.partidoFechaFixture {
     font-weight: bold;
     position: relative;
     text-align: center;
@@ -218,12 +220,14 @@ img.media-object{
     width: 20px;
     margin:3px;
 }
+
 .golesLocalResultado, .golesVisitaResultado {
 	color: black;
 	font-size: 20px;
+	text-align: center;
 	font-weight: bold;
 	border: 5px solid black;
-	margin-left: 20px
+	margin:5px;
 }
 
 .equipoResultado {
@@ -231,4 +235,5 @@ img.media-object{
 	text-align: center;
 	color:black;
 	font-size: 30px;
+	margin: 5px;
 }
