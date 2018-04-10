@@ -3,6 +3,7 @@ $(document).ready(cargarEquipos);
 function cargarEquipos(){
   $.get("https://uns-iaw-2018-com16.github.io/TorneoFutbol/JSON/equipos.json", function(data, status){
       cargarListaEquipos(data);
+      cargarPlantel("Argentina");
   });
 }
 
