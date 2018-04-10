@@ -6,11 +6,9 @@ body {
 }
 
 #titulo {
-
-	font-weight: bold;
-	font-size: 100px;
-	color: white;
-	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
@@ -101,6 +99,14 @@ ul.nav {
 .dropdown-menu > li > a {
 	color:white;
 	font-size:15px;
+}
+
+#logoFixtur, #logoResultados, #logoGoleadores, #logoAmarillas, #logoPosiciones {
+	margin-top:10px;
+	margin-bottom: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -211,4 +217,18 @@ img.media-object{
 .icono{
     width: 20px;
     margin:3px;
+}
+.golesLocalResultado, .golesVisitaResultado {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	border: 5px solid black;
+	margin-left: 20px
+}
+
+.equipoResultado {
+	font-weight: bold;
+	text-align: center;
+	color:black;
+	font-size: 30px;
 }
