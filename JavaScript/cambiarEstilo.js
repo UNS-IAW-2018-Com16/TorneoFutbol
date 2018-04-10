@@ -23,5 +23,5 @@ function cambiarTitulo(estilo){
     if(estilo==="estiloGeneral.css")
         $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloGeneral/banner.png");
     else
-        $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloGeneral/banner.png");
+        $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloOscuro/banner.png");
 }
