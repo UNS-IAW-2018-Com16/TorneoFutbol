@@ -10,7 +10,7 @@ function crearFixture(data){
   var i,j;
   var panel="";
   for(i = 0; i < data.length; i++){
-    panel += "<div class=\"panel panel-info\">"+
+    panel += "<div class=\"panel panel-info fixture\">"+
             "<div class=\"panel-heading\">"+
             "<p>Fecha "+(i+1)+"</p>"+
             "</div>"+

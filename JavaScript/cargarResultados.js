@@ -10,7 +10,7 @@ function crearResultados(data){
   var i,j;
   var panel="";
   for(i = 0; i < data.length; i++){
-    panel += "<div class=\"panel panel-info\">"+
+    panel += "<div class=\"panel panel-info resultados\">"+
             "<div class=\"panel-heading\">"+
               "<p>Fecha "+(i+1)+"</p>"+
             "</div>"+
@@ -22,18 +22,18 @@ function crearResultados(data){
           golesVisita = data[i][j].golesVisita;
           panel += 
               "<p>"+
-              "<div class='equipoResultado'>"+
+              "<div class='equipoResultado col-md-4'>"+
               data[i][j].equipoLocal+
               "</div>"+
               "<div class='resultadoPartido'>"+
-                  "<div class='golesLocalResultado'>"+
+                  "<div class='golesLocalResultado col-md-1'>"+
                   golesLocal+
                   "</div>"+
-                  "<div class='golesVisitaResultado'>"+
+                  "<div class='golesVisitaResultado col-md-1'>"+
                   golesVisita+
                   "</div>"+
               "</div>"+
-              "<div class='equipoResultado'>"+
+              "<div class='equipoResultado col-md-4'>"+
               data[i][j].equipoVisitante+
               "</div> "+
               " </p>";
