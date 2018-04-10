@@ -25,7 +25,7 @@ function cargarPlantel(equipo){
 }
 
 function cargarNombreYLogo(equipo){
-  var imagen = "https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloGeneral/"+equipo+".png";
+  var imagen = "https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Titulos/"+equipo+".png";
   $("#nombreEquipo").attr("src",imagen);
 }
 
