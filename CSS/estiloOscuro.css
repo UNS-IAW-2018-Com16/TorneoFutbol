@@ -6,14 +6,17 @@ body {
 }
 
 .header{
-    padding: 10px;
+    margin:10px;
 }
 
 #titulo {
-	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header button.btn{
+    margin-top: 10px;
     position:relative;
     left: 80%;
 	background-color: black;
@@ -105,26 +108,27 @@ h2 {
 /* Resultado */
 
 .equipoResultado, .resultadoPartido{
-    display:inline-block;
-    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .golesLocalResultado, .golesVisitaResultado{
-    display:inline-block;
-    padding: 5px;
-    margin: 3px;
+    margin-top: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: 2px solid black;
     background: red;
     text-align: center;
+    font-size: 15px;
 }
 
 
 .equipoResultado{
-    text-align: left;
     background-color: black;
     color:white;
-    padding:10px;
     margin: 15px;
+    font-size: 15px;
 }
 
 /* Equipos */
@@ -158,10 +162,11 @@ h2 {
     padding: 15px;
 }
 
-#nombreEquipo{
-    border: solid 5px white;
-    padding-top:5px;
-    padding-bottom: 5px;
+#nombreEquipo, #logoResultados, #logoFixture, #logoPosiciones, #logoGoleadores, #logoAmarillas{
+    margin:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Tablas */
@@ -190,4 +195,5 @@ table > tbody > tr:hover{
     padding-top:5px;
     padding-bottom: 5px;
 }
+
 
