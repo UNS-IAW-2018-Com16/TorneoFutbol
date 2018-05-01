@@ -15,13 +15,13 @@ function cambiarEstilo(estilo){
 }
     
 function setReferencia(estilo){
-    var rutaAbsoluta = "https://uns-iaw-2018-com16.github.io/TorneoFutbol/CSS/"+estilo;
+    var rutaAbsoluta = "https://uns-iaw-2018-com16.github.io/TorneoFutbol-Entrega1/CSS/"+estilo;
     $("link[id=\"estiloPagina\"]").attr("href",rutaAbsoluta);
 }
 
 function cambiarTitulo(estilo){
     if(estilo==="estiloGeneral.css")
-        $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloGeneral/banner.png");
+        $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol-Entrega1/Imagenes/Fondos/EstiloGeneral/banner.png");
     else
-        $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol/Imagenes/Fondos/EstiloOscuro/banner.png");
+        $("img[id=\"titulo\"]").attr("src","https://uns-iaw-2018-com16.github.io/TorneoFutbol-Entrega1/Imagenes/Fondos/EstiloOscuro/banner.png");
 }
